@@ -231,7 +231,12 @@ const App: React.FC = () => {
                   className="btn btn-outline-secondary btn-sm"
                   onClick={() => {
                     setInputMinutes(5);
-                    if (!timer.isRunning) setCustomTime();
+                    setTimer({
+                      minutes: 5,
+                      seconds: 0,
+                      isRunning: false,
+                      isPaused: false
+                    });
                   }}
                 >
                   5min
@@ -240,7 +245,12 @@ const App: React.FC = () => {
                   className="btn btn-outline-secondary btn-sm"
                   onClick={() => {
                     setInputMinutes(10);
-                    if (!timer.isRunning) setCustomTime();
+                    setTimer({
+                      minutes: 10,
+                      seconds: 0,
+                      isRunning: false,
+                      isPaused: false
+                    });
                   }}
                 >
                   10min
@@ -249,7 +259,12 @@ const App: React.FC = () => {
                   className="btn btn-outline-secondary btn-sm"
                   onClick={() => {
                     setInputMinutes(20);
-                    if (!timer.isRunning) setCustomTime();
+                    setTimer({
+                      minutes: 20,
+                      seconds: 0,
+                      isRunning: false,
+                      isPaused: false
+                    });
                   }}
                 >
                   20min
@@ -258,7 +273,12 @@ const App: React.FC = () => {
                   className="btn btn-outline-secondary btn-sm"
                   onClick={() => {
                     setInputMinutes(30);
-                    if (!timer.isRunning) setCustomTime();
+                    setTimer({
+                      minutes: 30,
+                      seconds: 0,
+                      isRunning: false,
+                      isPaused: false
+                    });
                   }}
                 >
                   30min
