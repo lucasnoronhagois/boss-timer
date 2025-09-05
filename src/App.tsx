@@ -239,29 +239,29 @@ const App: React.FC = () => {
                 <button
                   className="btn btn-outline-secondary btn-sm"
                   onClick={() => {
-                    setInputMinutes(15);
+                    setInputMinutes(10);
                     if (!timer.isRunning) setCustomTime();
                   }}
                 >
-                  15min
+                  10min
                 </button>
                 <button
                   className="btn btn-outline-secondary btn-sm"
                   onClick={() => {
-                    setInputMinutes(25);
+                    setInputMinutes(20);
                     if (!timer.isRunning) setCustomTime();
                   }}
                 >
-                  25min
+                  20min
                 </button>
                 <button
                   className="btn btn-outline-secondary btn-sm"
                   onClick={() => {
-                    setInputMinutes(60);
+                    setInputMinutes(30);
                     if (!timer.isRunning) setCustomTime();
                   }}
                 >
-                  60min
+                  30min
                 </button>
               </div>
             </div>
